@@ -1,0 +1,38 @@
+.todo-item {
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+    /* background-color: bisque; */
+    cursor: pointer;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+.todo-item.done {
+    /* background-color: lightgreen; */
+}
+
+.todo-item .delete-button {
+    float: right;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+span {
+    border: 1px solid black;
+    padding: 5px 10px;
+    background: rgb(237, 129, 129);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    padding: 20px;
+    /* border: 1px solid black; */
+    max-width: 150px;
+    width: 100%;
+    border-right: 1px solid black;
+}

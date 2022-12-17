@@ -1,0 +1,31 @@
+body {
+    max-width: 500px;
+    width: 100%;
+    margin: 120px auto 0;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.wrapp {
+    display: flex;
+    max-width: 500px;
+    /* justify-content: space-between; */
+    margin-bottom: 20px;
+    
+    
+    
+}
+.descript {
+    padding-left: 20px;
+    color: blue;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 55px;
+}
+
+/* .descript1 {
+    background: rgb(193, 190, 190);
+}
+.descript2 {
+    background: rgb(198, 184, 184);
+} */
