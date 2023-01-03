@@ -1,0 +1,15 @@
+.wrap {
+    max-width: 500px;
+    background-color: bisque;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 100px auto; 
+}
+.titles {
+    display: flex;
+    /* justify-content: space-between; */
+    max-width: 469px;
+}
+h2 {
+    width: 158px;
+}
