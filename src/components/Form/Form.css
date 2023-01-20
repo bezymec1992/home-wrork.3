@@ -1,60 +1,21 @@
 form {
-    
-    max-width: 500px;
+    /* background-color: aqua; */
+    max-width: 300px;
     margin: 0 auto;
-    margin-top: 30px;
-    display: flex;
     flex-direction: column;
-}
-.add {
-    max-width: 200px;
-    width: 100%;
-    margin: 0 auto 0;
-    /* background-color: red; */
-    cursor: unset;
-    opacity: 0.7;
-    z-index: -5;
-    font-size: 24px;
+    display: none;
 }
 input {
-    max-width: 200px;
-    width: 100%;
-    margin: 0 auto 20px;
-    padding: 5px 10px;
-   
-}
-.allFill {
-    background-color: green;
-    cursor: pointer;
-    opacity: 1;
-    z-index: 100;
-    color: white;
-}
-
-.open {
-    display: block;
-    margin: 30px auto 30px;
-    font-size: 24px;
-    background-color: lightskyblue;
-}
-.form {
-    display: none;
+    margin-bottom: 10px;
 }
 
 .formopen {
     display: flex;
 }
-
-.cencel {
-    /* width: 50px;
-    position: relative;
-    right: 20px; */
-
-    max-width: 110px;
-    position: relative;
-    right: 20px;
-    margin-left: auto;
-    top: 33px;
-    background-color: rgb(193, 117, 117);
-    font-size: 24px;
+.btn-add {
+    display: block;
+    margin: 0 auto 10px;
+}
+button {
+    margin-bottom: 10px;
 }
